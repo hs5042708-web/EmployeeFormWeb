@@ -1,0 +1,135 @@
+body {
+    background-color:#f0f2f5;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    background:lightblue;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #1a73e8;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+fieldset:hover {
+    border-color: #1a73e8;
+    box-shadow: 0 4px 12px rgba(26, 115, 232, 0.1);
+}
+
+legend {
+    font-weight: 600;
+    color: #1a73e8;
+    padding: 0 10px;
+    font-size: 1.1rem;
+}
+
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box; 
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #1a73e8;
+    background-color: #f8fbff;
+}
+
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+.input-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px dashed #1a73e8;
+}
+
+
+.btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"] {
+    background-color: #1a73e8;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #1557b0;
+    transform: translateY(-2px);
+}
+
+input[type="reset"] {
+    background-color: #ea4335;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: #c5221f;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
