@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Employee Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style_v2.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="form-header">
+        <h2><i class="fas fa-user-plus" style="color: #3498db;"></i> Employee Registration Form</h2>
+        <p>Please fill in the details to onboard the new employee</p>
+    </div>
+
+    <form>
+        <div class="card">
+            <h3><i class="fas fa-user" style="color: #ff4757;"></i> Personal Information</h3>
+            <div class="grid-container">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-user-tag icon-name"></i>
+                        <input type="text" placeholder="Enter full name" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Father Name</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-users icon-father"></i>
+                        <input type="text" placeholder="Enter father name">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Date of Birth</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-birthday-cake icon-dob"></i>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Gender</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-venus-mars icon-gender"></i>
+                        <select>
+                            <option>Select Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card alternate-bg">
+            <h3><i class="fas fa-address-book" style="color: #2ed573;"></i> Contact Information</h3>
+            <div class="grid-container">
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-envelope icon-email"></i>
+                        <input type="email" placeholder="email@company.com">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Phone Number</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-phone icon-phone"></i>
+                        <input type="tel" placeholder="03XXXXXXXXX">
+                    </div>
+                </div>
+                <div class="input-group full-width">
+                    <label>Address</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-map-marker-alt icon-map"></i>
+                        <textarea placeholder="Enter complete home address"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card job-card-style">
+            <h3><i class="fas fa-briefcase" style="color: #f1c40f;"></i> Job Details</h3>
+            <div class="grid-container">
+                <div class="input-group">
+                    <label>Department</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-network-wired icon-dept"></i>
+                        <input type="text" placeholder="IT, HR, Finance...">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Designation</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-id-badge icon-desig"></i>
+                        <input type="text" placeholder="Web Developer">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Salary</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-wallet icon-salary"></i>
+                        <input type="number" placeholder="Enter salary">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Joining Date</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-calendar-check icon-date"></i>
+                        <input type="date">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3><i class="fas fa-star" style="color: #9b59b6;"></i> Skills & Documents</h3>
+            <div class="skills-flex">
+                <label class="chip"><input type="checkbox"> <i class="fab fa-html5 icon-html"></i> HTML</label>
+                <label class="chip"><input type="checkbox"> <i class="fab fa-css3-alt icon-css"></i> CSS</label>
+                <label class="chip"><input type="checkbox"> <i class="fab fa-js icon-js"></i> JS</label>
+                <label class="chip"><input type="checkbox"> <i class="fab fa-react icon-react"></i> React</label>
+            </div>
+            <div class="input-group" style="margin-top: 20px;">
+                <label>Upload Resume (PDF)</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-file-pdf icon-pdf"></i>
+                    <input type="file" accept=".pdf">
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button type="submit" class="btn-submit">Submit Registration</button>
+            <button type="reset" class="btn-reset">Reset</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
