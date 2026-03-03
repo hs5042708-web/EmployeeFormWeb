@@ -194,7 +194,10 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-
+.btn-reset:hover {
+     transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 15px 25px rgba(52, 152, 219, 0.4);
+}
 @media (max-width: 600px) {
     .grid-container { grid-template-columns: 1fr; }
     .full-width { grid-column: span 1; }
